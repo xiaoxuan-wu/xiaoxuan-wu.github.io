@@ -1,0 +1,372 @@
+/* 导航 */
+*{padding: 0; margin: 0; list-style: none; text-decoration: none;}
+.nav{
+	width: 100%;
+	height: 80px;
+	background:rgba(0,0,0,0.5) ;
+	box-shadow: 0 0 10px rgba(,0,0,0.3);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+.navIn{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navIn .logo{
+	float: left;
+	margin-top: 12px;
+	width: 120px;
+	height: 30px;
+}
+.navIn audio{
+	position: absolute;
+	left: 170px;
+	top: 50%;
+	transform: translateY(-50%);
+	outline: none;
+}
+.navIn ul{
+	float: right;
+	margin-top: 20px;
+}
+.navIn ul li{
+	float: left;
+	text-align: center;
+	margin: 0 60px;
+	
+}
+.navIn a{
+	color:#fff;
+}
+
+
+/* 首页 */
+
+.home{
+	width: 1920px;
+	height: 1080px;
+	background: url(../images/home/bg.png)no-repeat center top;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -960px;
+}
+.homeMask{
+	position: absolute;
+/* 	transition: all 2s; */
+}
+.homeMask div{
+	position: absolute;
+	top: 100px;
+	left: 53px;
+	animation: chilun1 5s infinite alternate linear;
+}
+@keyframes chilun1{
+	from{transform: rotatez(0);}
+	to{transform: rotatez(360deg);}
+}
+
+.chilun1{
+	margin-left: 50px;
+	margin-top: 45px;
+}
+.chilun2{
+	margin-left: 250px;
+	margin-top: 50px;
+}
+.chilun3{
+	margin-left: -150px;
+	margin-top: 250px;
+}
+.chilun2 img{
+	transform: scale(0.6);
+}
+.home_In{
+	position: absolute;
+}
+.home_In div{
+	position: absolute;
+	top: 50px;
+	left: 1720px;
+	animation: chilun1 5s infinite alternate linear;
+}
+.benkui{
+	position: absolute;
+}
+.benkui div{
+	position: absolute;
+	top: 100px;
+	left: 1500px;
+	animation: chilun1 5s infinite alternate linear;
+}
+.chilun05 img{
+	transform: scale(0.7);
+}
+.chilun06{
+	margin-left: 200px;
+	margin-top: 200px;
+}
+.chilun06 img{
+	transform: scale(0.6);
+}
+.list{
+	margin-left: 363px;
+	margin-top:640px ;
+	position: absolute;
+}
+
+
+/* banner */
+.banner{
+	height: 1080px;
+	background: url(../images/banner/bg.png) no-repeat center top;
+	margin-top: -10px;
+}
+.bannerIn{
+	width: 1100px;
+	height: 900px;
+	margin: 0 auto;
+/* 	background: pink; */
+	overflow: hidden;
+}
+.bannerIn h1{
+	width: 249px;
+	height: 30px;
+	margin: 140px auto;
+}
+.bannerBox{
+	width: 1100px;
+	height: 600px;
+	margin:100px auto 0;
+/* 	border:1px solid #000; */
+	
+
+	overflow: hidden;
+}
+.bannerBox img{
+	width: 100%;
+}
+.banner img{
+	top: 60px;
+}
+.btn{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	cursor: pointer;
+	outline: none;
+}
+
+.btnLeft{
+	background:url(../images/banner/left.png);
+	left: 520px;
+	bottom: 30px;
+}
+.btnRight{
+	background:url(../images/banner/right.png);
+	right: 520px;
+	bottom: 30px;
+}
+/* app */
+.app{
+	height: 1080px;
+	background:url(../images/app/bg.png) no-repeat center top;
+	margin-top: -10px;
+}
+.appIn{
+	width: 1200px;
+	height: 953px;
+	margin: 0 auto;
+}
+
+.appBox{
+	width: 750px;
+	height: 520px;
+	float: right;
+	margin-top: 300px;
+	position: relative;
+}
+
+.appIn .swiper-container {
+    width: 720px;
+    height: 403px;
+	background:rgba(255,255,255,0.5);
+	padding: 20px;
+	border-radius:5px;
+	top: 25px;
+}  
+
+.appIn .swiper-container img{
+	width: 100%;
+}
+.appbtn{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	bottom: -35px;
+	cursor: pointer;
+	transition: 0.5s;
+	outline: none;
+}
+.appLeft{
+	background:url(../images/app/leftbtn.png);
+	left: 320px;
+}
+.appLeft:hover{
+	background:url(../images/app/leftbtn-cur.png);
+}
+.appRight{
+	background:url(../images/app/rightbtn.png);
+	right: 320px;
+}
+.appRight:hover{
+	background:url(../images/app/rightbtn-cur.png);
+}
+/* icon */
+.icon{
+	height: 1080px;
+	background:url(../images/icon/bg.png) no-repeat center top;
+}
+
+.iconIn{
+	width: 1200px;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.icon ul{
+	margin-top: 250px;
+}
+.icon li{
+	width: 330px;
+	height: 330px;
+	border: 10px solid #fff;
+	border-radius:50%;
+	float: left;
+	margin: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	overflow: hidden;
+	background: #fff;
+	
+}
+.icon li img{
+	width: 100%;
+}
+
+.iconIn li:hover img{
+	animation:tada 1s;
+}
+.other{
+	height: 1074px;
+	background: url(../images/others/bg.png) no-repeat center top;
+	overflow: hidden;
+}
+.otherIn{
+	width: 1100px;
+	height: 900px;
+	margin: 370px auto 0;
+/* 	background: pink; */
+	
+}
+.otherIn img{
+	width: 100%;
+}
+
+
+/* skills */
+.skills{
+	height: 1221px;
+	background: url(../images/about/aboutbg.png) no-repeat center top;
+	overflow: hidden;
+}
+.skillsIn{
+	width: 1200px;
+	height: 1221px;
+	/* background: pink; */
+	margin: 150px auto 0;
+}
+.skillsme{
+	width: 1200px;
+	height: 335px;
+	background: #fff;
+	border-radius: 0 167px 0 167px;
+}
+.skillsme ul{
+	height: 155px;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+.skillsme li{
+	width: 155px;
+	height: 155px;
+	float: left;
+	margin: 0 20px;
+}
+.about{
+	width: 1200px;
+	height: 400px;
+	margin-top: 200px;
+}
+
+.about li:nth-child(1){
+	width: 300px;
+	height: 300px;
+	margin-left: 80px;
+	float: left;
+	border: 10px solid #FFF;
+	border-radius: 50%;
+}
+.about img{
+	width: 100%;
+}
+.about li:nth-child(2){
+	width: 740px;
+	height: 400px;
+	margin-left: 60px;
+	color: #fff;
+	float: right;
+}
+.about li h2{
+	margin: 30px 0;
+	color: #fff;
+	font-size: 20px;
+}
+.about li span{
+	line-height: 30px;
+}
+.about p{
+	overflow: hidden;
+}
+.about p span{
+	color: #fff;
+	margin-left: 120px;
+	
+}
+.about p span:first-child{
+	margin-left: 0px;
+	
+}
+.about p img{
+	width: 20px;
+	height: 20px;
+	margin-top: 30px;
+}
+.fanhui{
+	width: 100px;
+	height: 100px;
+	background: url(../images/about/huojian.png) no-repeat center top;
+	margin: 10px auto 0;
+	color: #fff;
+}
+.fanhui a{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
