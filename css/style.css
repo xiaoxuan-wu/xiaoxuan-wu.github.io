@@ -162,7 +162,7 @@
 	cursor: pointer;
 	outline: none;
 }
-
+/* 
 .btnLeft{
 	background:url(../images/banner/left.png);
 	left: 520px;
@@ -172,7 +172,7 @@
 	background:url(../images/banner/right.png);
 	right: 520px;
 	bottom: 30px;
-}
+} */
 /* app */
 .app{
 	height: 1080px;
